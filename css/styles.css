@@ -1,0 +1,227 @@
+#home {
+    background-color: teal;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+body {
+    font: "Montserrat";
+}
+
+
+/* Navigation-bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+.about-image {
+    width: 60%;
+    position: relative;
+    margin: 1rem;
+}
+
+
+#about {
+    padding: 5% 8%;
+    background-color: #fff;
+    position: relative;
+}
+
+#about h1{
+    font-size: 3.5rem;
+}
+
+.about-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: teal;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: rgb(2, 173, 173);
+}
+
+#skills{
+    background-color:rgb(233, 232, 232);
+    padding: 4%;
+}
+
+#skills h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+.our-skill{
+    margin: 2rem 7rem;
+}
+.progress-text{
+    color:rgb(77, 165, 146);
+    line-height: 3;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: 0;
+    padding-top: 16px;
+}
+
+.prog-percentage{
+    float: right;
+}
+
+#work{
+    padding:3% 4%;
+    margin: 1% 5%;
+}
+
+#work h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+.all-work-button{
+    float: right;
+}
+
+.work-card{
+    width:400px;
+    padding:3% 2%;
+    margin: 1% 4%;
+    text-align: center;
+}
+.work-button{
+    background-color:teal;
+    color:#fff;
+}
+.work-image:hover{
+    width:500px;
+     height:auto;
+     display:block;
+     z-index:999;
+     cursor: pointer;
+     transition-property: all;
+     transition-duration: 0.3s;
+     transition-timing-function: ease;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: rgb(17, 138, 138);
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    color: #fff;
+}
+
+
+.contact-logo {
+    size: 100%;
+    margin: 20px 20px 50px;
+}
+
+
+/* carousel */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: rgb(17, 138, 138);
+    color: #fff;
+    padding: 5%;
+}
+
+#contact-logos{
+    padding-bottom: 3%;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: #000;
+}
+
+#contact {
+    text-align: center;
+    background-color: rgb(44, 141, 141);
+    text-decoration: solid;
+    padding: 5%;
+}
